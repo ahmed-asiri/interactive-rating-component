@@ -133,3 +133,17 @@ footer {
 .d-none {
     display: none;
 }
+
+@media screen and (max-width: 390px) {
+    html {
+        font-size: 55%;
+    }
+
+    body {
+        padding: 0 2rem;
+    }
+
+    .container {
+        width: 100%;
+    }
+}
