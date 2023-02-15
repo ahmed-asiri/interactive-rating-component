@@ -34,11 +34,12 @@ body {
     padding: 1rem;
     display: block;
     border-radius: 50%;
-    background-color: #555;
+    background-color: #353e48;
 }
 
 .rating-card__title {
     font-size: 2.5rem;
+    font-weight: 500;
 }
 
 .rating-card__description {
@@ -63,9 +64,17 @@ body {
     place-items: center;
     font-size: 1.8rem;
     text-align: center;
-    background-color: darkgray;
+    background-color: #353e48;
     border-radius: 50%;
     cursor: pointer;
+}
+
+.rating-card__stars label:hover {
+    background-color: lightgrey;
+}
+
+.rating-card__stars input:checked + label {
+    background-color: hsl(25, 97%, 53%);
 }
 
 .rating-card__stars input {
