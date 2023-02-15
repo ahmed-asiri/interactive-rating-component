@@ -147,3 +147,8 @@ footer {
         width: 100%;
     }
 }
+
+.header {
+    position: absolute;
+    left: -99999999px;
+}
