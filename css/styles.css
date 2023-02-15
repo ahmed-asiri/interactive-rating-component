@@ -70,7 +70,7 @@ body {
 }
 
 .rating-card__stars label:hover {
-    background-color: lightgrey;
+    background-color: rgb(144, 144, 144);
 }
 
 .rating-card__stars input:checked + label {
