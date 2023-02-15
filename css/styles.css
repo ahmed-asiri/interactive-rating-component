@@ -17,12 +17,15 @@ body {
     place-items: center;
 }
 
-.rating-card {
+.container {
     background-color: hsl(213, 19%, 18%);
-    padding: 3rem;
-    border-radius: 1rem;
-    max-width: 100%;
     width: 37rem;
+    padding: 3rem;
+    max-width: 100%;
+    border-radius: 1rem;
+}
+
+.rating-card {
     display: flex;
     flex-direction: column;
     row-gap: 2rem;
@@ -37,12 +40,12 @@ body {
     background-color: #353e48;
 }
 
-.rating-card__title {
+.title {
     font-size: 2.5rem;
     font-weight: 500;
 }
 
-.rating-card__description {
+.description {
     font-size: 1.6rem;
     line-height: 1.5;
     color: darkgray;
@@ -107,4 +110,23 @@ footer {
     bottom: 10px;
     left: 50%;
     transform: translateX(-50%);
+}
+
+.txt-center {
+    text-align: center;
+}
+
+.thank-you {
+    display: none;
+    text-align: center;
+}
+
+.thank-you__result {
+    background-color: #353e48;
+    display: inline-block;
+    padding: .6rem 2rem;
+    color: hsl(25, 97%, 53%);
+    border-radius: 3rem;
+    margin: 1.9rem 0;
+    font-size: 1.2rem;
 }
